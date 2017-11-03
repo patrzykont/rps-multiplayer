@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors Part 1</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+</head>
+<body>
+<div class="container">
+  
+  
+  <header id="title"><strong>Rock Paper Scissors</strong></header>
+    <br>
+    <div class='username-toolbar'>
+      <label for="nameInput">Username:</label>
+      <input type='text' id='nameInput' placeholder='enter a username...'>
+      <input id="addName" type="submit" value="submit"></input>
+    </div>
+    <br>
+
+    <div id="game">
+      
+    </div>
+    <br>
+    <div id="status"></div>
+      
+      <div class="playerOneGuess"><span id="playerOneGuess"></span></div>
+      <div class="playerTwoGuess"><span id="playerTwoGuess"></span></div>
+
+
+    <div class="chat-container">
+    <header>Chat</header>
+      <br>
+    </div>
+    <div id="messagesHere"></div>
+      <ul id='messages' class="chat-messages"></ul>
+      <footer>
+      <input type='text' id='messageInput'  placeholder='Talk some smack...'>
+      <input id="addMessage" type="submit" value="submit"></input>
+      </footer>
+      <br>
+
+
+      <div class="row3">
+
+        <div class="playerOneScoreboard">
+
+          <div class="scoreboardLabels"><span id="playerOneName">Player One</span></div>
+          <div class="scoreboardLabels">Wins: <span id="playerOneWins"></span></div>
+          <div class="scoreboardLabels">Losses: <span id="playerOneLosses"></span></div>
+        </div>
+
+        <div class="playerTwoScoreboard">
+          <div class="scoreboardLabels"><span id="playerTwoName">Player Two</span></div>
+          <div class="scoreboardLabels">Wins: <span id="playerTwoWins"></span></div>
+          <div class="scoreboardLabels">Losses: <span id="playerTwoLosses"></span></div>
+
+      </div>
+
+    </div>
+
+<script type="text/javascript" src="assets/javascript/main.js"></script>
+</div>
+</body>
+</html>

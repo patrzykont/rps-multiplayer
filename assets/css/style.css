@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+.chat-container {
+  height: 150px;
+  width: 500px;
+  background-color: white;
+  margin-top: 380px;
+}
+.box {
+  height: 300px;
+  width: 300px;
+  border-color: white;
+  border-width: 2px;
+  border-style: dashed;
+  display: inline-block;
+  padding: 10px;
+  float: left;
+  margin-left: 20px;
+}
+.rock {
+  height: 150px;
+  width: 150px;
+}
+.paper {
+  height: 150px;
+  width: 150px;
+}
+.scissors {
+  height: 150px;
+  width: 150px;
+}
+body {
+  background-color: yellow;
+  font-size: 20px;
+  font-family: helvetica;
+}
+header {
+  font-size: 100px;
+  font-family: helvetica;
+  background-color: blue;
+  height: 100px;
+}
+#title {
+  text-align: center;
+  font-size: 70px;
+  font-family: helvetica;
+}
+input {
+  width: 200px;
+}
+button {
+  width: 100px;
+  font-size: 20px;
+  font-color: white;
+  font-family: helvetica;
+  background-color: red;
+  display: inline-block;
+  margin: 20px;
+}
+.paragraph {
+  text-align: center;
+}
